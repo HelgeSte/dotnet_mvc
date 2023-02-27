@@ -15,9 +15,15 @@ namespace FirstMVCApp.Controllers
             //return "This is the index page!";
         }
 
-        public string Hello()
+        public IActionResult Create()
         {
-            return "Who's there?";
+            var dogVm = new DogViewModel();
+            return View(dogVm);
+        }
+
+        public IActionResult CreateDog(DogViewModel dogViewModel)
+        {
+            return View(Index);
         }
     }
 }
