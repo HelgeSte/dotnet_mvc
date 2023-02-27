@@ -1,0 +1,2 @@
+Complete 3 Hour ASP NET 6.0 and Entity Framework Core Course!:
+What is Razor Pages (1.07.33)
